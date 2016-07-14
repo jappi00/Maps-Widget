@@ -78,7 +78,9 @@ return [
      * Listen to events.
      */
     'events' => [
-
+        'view.scripts' => function ($event, $scripts) use ($app) {
+            $scripts->register('widget-siteform', 'bixie/formmaker:app/bundle/widget-siteform.js', ['~widgets']);
+        }
     ],
 
     'widgets' => [

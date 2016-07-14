@@ -22,7 +22,7 @@
                 <label class="uk-form-label">Marker name</label><input class="uk-form-width-large" type="text" v-model="config.name">
             </div>
             <div class="uk-form-row">
-                <label class="uk-form-label">Coordinates</label><input placeholder="lat" class="uk-form-width-middle" type="text" v-model="config.lat">,<input placeholder="lng" class="uk-form-width-middle" type="text" v-model="config.lng">
+                <label class="uk-form-label"><a href="https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en">Coordinates</a></label><input placeholder="lat" class="uk-form-width-middle" type="text" v-model="config.lat">,<input placeholder="lng" class="uk-form-width-middle" type="text" v-model="config.lng">
             </div>
             <div class="uk-form-row">
                 <label class="uk-form-label"><a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google Maps JavaScript & Geocoding API Key</a></label><input class="uk-form-width-large" type="text" v-model="config.key">

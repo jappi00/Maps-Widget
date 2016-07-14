@@ -61,20 +61,7 @@
 	                    this.$notify(data, 'danger');
 	                }
 	            );
-	        },
-	        generate: function () {
-	                var addressInput = this.config.address;
-
-	                var geocoder = new google.maps.Geocoder();
-	                geocoder.geocode({address: addressInput}, function(results, status) {
-	                    if (status == google.maps.GeocoderStatus.OK) {
-	                        var myResult = results[0].geometry.location;
-	                        alert(myResult);
-	                        console.log({config: this.config});
-	                    }
-	                });
 	        }
-
 	    }
 
 	};
