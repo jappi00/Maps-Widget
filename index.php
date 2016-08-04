@@ -78,9 +78,6 @@ return [
      * Listen to events.
      */
     'events' => [
-        'view.scripts' => function ($event, $scripts) use ($app) {
-            $scripts->register('widget-siteform', 'bixie/formmaker:app/bundle/widget-siteform.js', ['~widgets']);
-        }
     ],
 
     'widgets' => [
@@ -100,6 +97,13 @@ return [
             'label' => 'maps',
             'url' => '@maps',
             'icon' => 'maps:/icon.svg'
+        ],
+		'maps: settings' => [
+            'label' => 'Settings',
+            'parent' => 'maps',
+            'url' => '@maps/settings',
+            'active' => '@maps/settings*',
+            'access' => 'system: access settings'
         ]
     ],
     'resources' => [
@@ -113,9 +117,21 @@ return [
         'streetViewControl' => 'true',
         'rotateControl' => 'true',
         'mapTypeControlStyle' => 'DEFAULT',
-        'zoom' => '1',
+        'zoom' => '10',
         'infowindow' => 'true',
         'height' => '500',
+		'scrollWheel' => 'true',
+		'draggable' => 'true',
+		'styler_invert_lightness' => 'false',
+		'styler_hue' => '#f4f6fa',
+		'styler_saturation' => '0',
+		'styler_lightness' => '0',
+		'styler_gamma' => '1',
+		'marker' => '2',
+		'popup_max_width' => '150',
+		'locale' => 'en_GB',
+		'language' => 'en',
+		'region' => 'EN'
     ]
 
 ];
