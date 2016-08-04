@@ -6,6 +6,14 @@ return [
 
     'label' => 'maps',
 
+    'events' => [
+
+        'view.scripts' => function ($event, $scripts) use ($app) {
+            $scripts->register('widgetssss', 'maps:js/widget.js', ['~widgets']);
+        }
+
+    ],
+
     'render' => function ($widget) use ($app) {
 
         // ...
