@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pagekit 1.0.11 (mediatrax/maps, messages)\n"
+"POT-Creation-Date: 2017-06-13 22:53+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Position"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Muted"
+msgstr ""
+
+msgid "Map Settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Map"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Maps Locale"
+msgstr ""
+
+msgid "Controls"
+msgstr ""
+
+msgid "e.g. %example%"
+msgstr ""
+
+msgid "%from% to %to%"
+msgstr ""
+

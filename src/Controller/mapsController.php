@@ -15,8 +15,10 @@ class mapsController
                 'name'  => 'maps:views/admin/settings.php'
             ],
             '$data' => [
-                'config' => App::module('maps')->config()
-            ]
+                'config' => App::module('maps')->config(),
+				'locales' => App::module('system/intl')->getAvailableLanguages(),
+				'options' =>  App::module('system')->config('site')
+			]
         ];
     }
 }

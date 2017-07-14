@@ -9,7 +9,7 @@ return [
     'events' => [
 
         'view.scripts' => function ($event, $scripts) use ($app) {
-            $scripts->register('widgetssss', 'maps:js/widget.js', ['~widgets']);
+            $scripts->register('widget-maps', 'maps:app/bundle/widget-options.js', ['~widgets']);
         }
 
     ],
